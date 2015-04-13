@@ -1,5 +1,5 @@
-Welcome!
-========
+Добро пожаловать!
+=================
 
 Hey everyone and welcome to Owl framework documentation page.
 
@@ -21,6 +21,8 @@ First, you don't need to learn C language, framework is writtend on Zephir langu
 
 @todo Will be soon...
 
-## Conclusion
+## Вывод
 
-Good luck and happy coding with Owl framework ;)
+@todo more text
+
+Удачи и приятного программирования с фреймворком Owl ;)
