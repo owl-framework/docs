@@ -3,6 +3,15 @@ Cache
 
 Owl provides a unified cache API (cache component) for most popular caching systems.
 
+## When is it needed?
+
+Although this component is very fast, implementing it in cases that are not needed could lead to a loss of performance rather than gain.
+We recommend you check this cases before using a cache:
+
+* You are making complex calculations that every time return the same result (changing infrequently)
+* You are using a lot of backends for future information building (for next time get from cache system by 1 query)
+* You are accessing database data constantly and these data rarely change
+
 ## Cache Usage
 
 ### Store an item
