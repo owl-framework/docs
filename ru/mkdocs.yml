@@ -1,0 +1,5 @@
+site_name: Owl Framework Docs
+pages:
+  - [index.md, Home]
+  - [welcome.md, Welcome]
+  - [cache.md, Cache]
