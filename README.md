@@ -3,7 +3,7 @@ Documentation
 
 > Repository with latest documentatition for Owl framework.
 
-## [English](./en/welcome.md) :: [Russian](./ru/welcome.md) 
+## [English](./en/docs/welcome.md) :: [Russian](./ru/docs/welcome.md) 
 
 *It's an alpha version.*
 
