@@ -1,7 +1,7 @@
 Benchmarks
 ==========
 
-```
+```sh
 ab -c 40 -n 15000 http://owl.ab.dmtry.me/users
 This is ApacheBench, Version 2.3 <$Revision: 1638069 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -58,7 +58,7 @@ Percentage of the requests served within a certain time (ms)
  100%    101 (longest request)
 ```
 
-```
+```sh
 ab -c 20 -n 15000 http://owl.ab.dmtry.me/users
 This is ApacheBench, Version 2.3 <$Revision: 1638069 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -115,7 +115,7 @@ Percentage of the requests served within a certain time (ms)
  100%     21 (longest request)
 ```
 
-```
+```sh
 ab -c 300 -n 25000 http://owl.ab.dmtry.me/users
 This is ApacheBench, Version 2.3 <$Revision: 1638069 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
