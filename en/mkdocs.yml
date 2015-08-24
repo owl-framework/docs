@@ -5,5 +5,4 @@ site_author: Dmitry Patsura @ovr
 copyright: Owl Team and Contributors
 pages:
   - [index.md, Home]
-  - [welcome.md, Welcome]
   - [cache.md, Cache]
