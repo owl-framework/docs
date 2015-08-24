@@ -1,21 +1,22 @@
-Кэширование
-===========
+Cache
+=====
 
-Owl предоставляет унифицированный API (Cache component) для работы с популярными системами кэширования.
+Owl provides a unified cache API (cache component) for most popular caching systems.
 
-## Где применять кэширование?
+## When is it needed?
 
-Несмотря на то, что этот компонент очень быстрый, его использование в случаях, где он не нужен, может привести к потери производительности. Мы рекомендуем проверить эти ситуации, прежде, чем использовать кэширование:
+Although this component is very fast, implementing it in cases that are not needed could lead to a loss of performance rather than gain.
+We recommend you check this cases before using a cache:
 
-- Вы делаете сложные расчеты, которые каждый раз возвращают один и тот же результат (или результат редко изменяется)
-- Агрегируте информацию из множества бекенд систем для будущего более быстрого доступа к ней
-- Получение данных из БД, которые редко изменяются
+* You are making complex calculations that every time return the same result (changing infrequently)
+* You are using a lot of backends for future information building (for next time get from cache system by 1 query)
+* You are accessing database data constantly and these data rarely change
 
-## Использование кеша
+## Cache Usage
 
-### Сохранение
+### Store an item
 
-Для того что бы сохранить обьект в кэше, Вам следует использоват метод `save`:
+To store the item, you need to use a `save` method like:
 
 ```php
 $id = 'you item id';
@@ -25,9 +26,9 @@ $lifetime = 3600; // 60s * 60 m = 1 hour in seconds
 $cache->save($id, $data, $lifetime);
 ```
 
-### Получение
+### Retrieving An Item
 
-Для получения обьекта из кеша, Вам следует использоват метод `get`:
+To retrieving the item, you need to use a `get` method like:
 
 ```php
 $value = $cache->get($id);

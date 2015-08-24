@@ -1,28 +1,26 @@
-Добро пожаловать!
-=================
+Welcome!
+========
 
 Hey everyone and welcome to Owl framework documentation page.
 
-## Что такое Owl?
+## What is Owl?
 
 
-Owl - это open source, full stack and экстремально производительный PHP фреймворка для создания супер приложений.
+Owl is an open source, full stack and extreme perfomance PHP framework for building awesome applications.
 First, you don't need to learn C language, framework is writtend on Zephir languge.
 
-## Как работают традиционные фреймворки на PHP?
+## How do traditional PHP frameworks work?
 
 @todo Will be soon...
 
-## Как работает расширение PHP?
+## How does a PHP C-extension work?
 
 @todo Will be soon...
 
-## Почему вам нужен Owl?
+## Why do You need Owl?
 
 @todo Will be soon...
 
-## Вывод
+## Conclusion
 
-@todo more text
-
-Удачи и приятного программирования с фреймворком Owl ;)
+Good luck and happy coding with Owl framework ;)
