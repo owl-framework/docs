@@ -10,4 +10,3 @@ pages:
   - [dbal.md, Database Abstract Layer]
   - [di.md, Dependency injection]
   - [http.md, HTTP Layer]
-  
