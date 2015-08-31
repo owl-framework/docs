@@ -1,5 +1,6 @@
 Cache
 =====
+#### [Code documentation](https://framework.lowl.io/code/current/namespace/Owl/Cache.html) :: [PHP Stubs](https://github.com/owl-framework/owl/tree/master/ide/Owl/cache) :: [Source code](https://github.com/owl-framework/owl/tree/master/owl/Cache)
 
 Owl provides a unified cache API (cache component) for most popular caching systems.
 

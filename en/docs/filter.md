@@ -1,6 +1,6 @@
 Filter
 ======
-#### [Code documentation](https://framework.lowl.io/code/current/namespace/Owl/Filter.html) :: [PHP Stubs](https://github.com/owl-framework/owl/tree/master/ide/Owl)
+#### [Code documentation](https://framework.lowl.io/code/current/namespace/Owl/Filter.html) :: [PHP Stubs](https://github.com/owl-framework/owl/tree/master/ide/Owl/filter) :: [Source code](https://github.com/owl-framework/owl/tree/master/owl/Filter)
 
 The Filter component provides a API for data filtering.
 
