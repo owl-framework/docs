@@ -1,5 +1,6 @@
 Filter
 ======
+#### [Code documentation](https://framework.lowl.io/code/current/namespace/Owl/Filter.html) :: [PHP Stubs](https://github.com/owl-framework/owl/tree/master/ide/Owl)
 
 The Filter component provides a API for data filtering.
 
@@ -9,7 +10,7 @@ In the physical world, a filter is typically used for removing unwanted portions
 
 ## Basic usage of filters
 
-Having this filter definition established provides the foundation for Owl\Filter\FilterInterface, which requires a single method named filter() to be implemented by a filter class.
+Having this filter definition established provides the foundation for `Owl\Filter\FilterInterface`, which requires a single method named filter() to be implemented by a filter class.
 
 Following is a basic example of using
 
