@@ -15,7 +15,7 @@ We recommend you check this cases before using a cache:
 
 ## Quick Start
 
-Caching adapters can either be created from the provided Owl\Cache\Service factory, or by simply instantiating one of the Zend\Cache\Driver\* classes.
+Caching adapters can either be created from the provided `Owl\Cache\Service` factory, or by simply instantiating one of the `Owl\Cache\Driver\*` classes.
 
 ```php
 $cache = new \Owl\Cache\Driver\Memcached();
