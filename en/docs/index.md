@@ -13,5 +13,5 @@ First, you don't need to learn C language, framework is writtend on Zephir langu
 + [Cache](cache.md)
 + [Database Abstract Layer](dbal.md)
 + [Filter](filter.md)
-+ [DI](di.md)
-+ [HTTP](http.md)
++ [Dependency injection](di.md)
++ [HTTP Layer](http.md)
