@@ -13,7 +13,13 @@ We recommend you check this cases before using a cache:
 * You are using a lot of backends for future information building (for next time get from cache system by 1 query)
 * You are accessing database data constantly and these data rarely change
 
-## Cache Usage
+## Quick Start
+
+Caching adapters can either be created from the provided Owl\Cache\Service factory, or by simply instantiating one of the Zend\Cache\Driver\* classes.
+
+```php
+$cache = new \Owl\Cache\Driver\Memcached();
+```
 
 ### Store an item
 
