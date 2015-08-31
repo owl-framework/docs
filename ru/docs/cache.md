@@ -1,7 +1,7 @@
 Кэширование
 ===========
 
-Owl provides a unified cache API (cache component) for most popular caching systems.
+Owl предоставляет стандартизированный API (компонент) для популярных систем используемых в кэшировании данных.
 
 ## When is it needed?
 
