@@ -21,7 +21,21 @@ var_dump($trimFilter->filter(' string ')); // string(6) "string"
 
 ## How to write own filter
 
-An example how to do it:
+An example how to do it on PHP:
+
+```php
+namespace App\Filter;
+
+class MyOwnTrim extends \Owl\Filter\AbstractFilter
+{
+    public function filter($value)
+    {
+		return trim($value);
+    }
+}
+```
+
+If you are using Zephir:
 
 ```php
 namespace App\Filter;
