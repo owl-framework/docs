@@ -6,3 +6,8 @@ copyright: Owl Team and Contributors
 pages:
   - [index.md, Home]
   - [cache.md, Cache]
+  - [filter.md, Filter]
+  - [dbal.md, Database Abstract Layer]
+  - [di.md, Dependency injection]
+  - [http.md, HTTP Layer]
+  
