@@ -23,7 +23,7 @@ $cache = new \Owl\Cache\Driver\Memcached();
 
 ### Store an item
 
-To store the item, you need to use a `save` method like:
+To store the item, you need to use a `save($id, $data, $lifeTime = 3600)` method like:
 
 ```php
 $id = 'you item id';
@@ -35,7 +35,7 @@ $cache->save($id, $data, $lifetime);
 
 ### Retrieving An Item
 
-To retrieving the item, you need to use a `get` method like:
+To retrieving the item, you need to use a `get($id)` method like:
 
 ```php
 $value = $cache->get($id);
