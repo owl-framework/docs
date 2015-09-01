@@ -1,7 +1,3 @@
-body {
-    padding-top: 70px;
-}
-
 h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id]:before {
     content: "";
     display: block;
@@ -139,19 +135,19 @@ div.col-md-9 img {
     float: left;
     height: 84px;
 }
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li.active>a {
+.navbar-owl .navbar-nav>li>a:hover,
+.navbar-owl .navbar-nav>li.active>a {
     color: #63c6ae !important;
     background-color: white !important;
 }
-.navbar-default .navbar-nav>li>a {
+.navbar-owl .navbar-nav>li>a {
     color: black;
     font-size: 18px;
     line-height: 84px;
     font-weight: 600;
     letter-spacing: -.02em;
     display: block;
-    padding: 0 15px;
+    padding: 0 0 0 30px;
     text-transform: uppercase;
 }
 .navbar-header {
