@@ -1,11 +1,12 @@
 HTTP Layer
 ==========
+#### [Code documentation](https://framework.lowl.io/code/current/) :: [PHP Stubs](https://github.com/owl-framework/owl/tree/master/ide/Owl/http/) :: [Source code](https://github.com/owl-framework/owl/tree/master/owl/Http)
 
 ## Overview
 
 # The Request Class
 
-The Owl\Http\Request object is responsible for providing a fluent API that allows a developer to interact with all the various parts of an HTTP request.
+The `Owl\Http\Request` object is responsible for providing a fluent API that allows a developer to interact with all the various parts of an HTTP request.
 
 ## Quick Start
 
