@@ -1,5 +1,5 @@
 site_name: Owl Framework Docs
-theme: yeti
+theme_dir: ../theme/
 repo_url: https://github.com/owl-framework/docs/
 site_author: Dmitry Patsura @ovr
 copyright: Owl Team and Contributors
