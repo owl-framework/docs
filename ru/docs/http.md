@@ -22,7 +22,7 @@ var_dump($request->getScheme()); // string(4) "http"
 
 ## Available Methods
 
-##### getScheme();
+### getScheme();
 
 Get request scheme (http/https)
 
@@ -30,7 +30,7 @@ Get request scheme (http/https)
 $request->getScheme();
 ```
 
-#####  getUri();
+###  getUri();
 
 Get request URI
 
@@ -38,7 +38,7 @@ Get request URI
 $request->getScheme();
 ```
 
-#### getPath();
+### getPath();
 
 Get request path (URI without GET parameters)
 
@@ -46,7 +46,7 @@ Get request path (URI without GET parameters)
 $request->getScheme();
 ```
 
-#### getParam(string! key, var defaultValue = null);
+### getParam(string! key, var defaultValue = null);
 
 Get param from, similar $_GET
 
@@ -54,7 +54,7 @@ Get param from, similar $_GET
 $request->getParam('code');
 ```
 
-#### getPost(string! key, var defaultValue = null);
+### getPost(string! key, var defaultValue = null);
 
 Get param from, similar $_GET
 
@@ -62,7 +62,7 @@ Get param from, similar $_GET
 $request->getPost('code');
 ```
 
-#### getServer(string! key, var defaultValue = null);
+### getServer(string! key, var defaultValue = null);
 
 Get param from, similar $_GET
 
