@@ -8,7 +8,7 @@ HTTP Layer
 
 The `Owl\Http\Request` object is responsible for providing a fluent API that allows a developer to interact with all the various parts of an HTTP request.
 
-## Quick Start
+## Быстрый старт
 
 Request objects can either be created from the provided `createFromGlobals`
 
@@ -20,7 +20,7 @@ $request = Request::createFromGlobals();
 var_dump($request->getScheme()); // string(4) "http"
 ```
 
-## Available Methods
+## Доступные методы
 
 ### getScheme();
 
