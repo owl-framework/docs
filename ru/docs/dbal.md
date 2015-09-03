@@ -27,5 +27,5 @@ Next, you need to setup a connection using prepared driver:
 
 ```php
 $connection = new \Owl\DBAL\Connection(['driver' => $driver], $eventManager);
-$di->set('connection', $connection);```
+$di->set('connection', $connection);
 ```
